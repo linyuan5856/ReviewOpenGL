@@ -9,3 +9,4 @@ link_directories(${ROOT}/Lib/X86)
 
 add_subdirectory(1_CreatWindow)
 add_subdirectory(2_CreatTriangle)
+add_subdirectory(3_GLSL)
