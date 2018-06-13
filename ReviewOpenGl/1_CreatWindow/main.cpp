@@ -2,8 +2,8 @@
 #include <glad/glad.h>
 #include <glfw3.h>
 
-#define  HEIGHT 800
-#define  WIDTH 600
+#define  HEIGHT 600
+#define  WIDTH 800
 using namespace std;
 
 void setBufferSizeCallBack(GLFWwindow *, int, int);
@@ -51,6 +51,9 @@ int main() {
 
     while (!glfwWindowShouldClose(window)) {
         processInput(window);
+
+        glClearColor(0.2f,0.3f,0.3f,1.0f);
+        glClear(GL_COLOR_BUFFER_BIT);
 
         glfwSwapBuffers(window);
         glfwPollEvents();

@@ -1,8 +1,0 @@
-C:/Users/linyu/CLionProjects/ReviewOpenGl/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/linyu/CLionProjects/ReviewOpenGl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/linyu/CLionProjects/ReviewOpenGl/cmake-build-debug/1_CreatWindow/CMakeFiles/1_CreatWindow.dir
-C:/Users/linyu/CLionProjects/ReviewOpenGl/cmake-build-debug/1_CreatWindow/CMakeFiles/edit_cache.dir
-C:/Users/linyu/CLionProjects/ReviewOpenGl/cmake-build-debug/1_CreatWindow/CMakeFiles/rebuild_cache.dir
-C:/Users/linyu/CLionProjects/ReviewOpenGl/cmake-build-debug/2_CreatTriangle/CMakeFiles/2_CreatTriangle.dir
-C:/Users/linyu/CLionProjects/ReviewOpenGl/cmake-build-debug/2_CreatTriangle/CMakeFiles/edit_cache.dir
-C:/Users/linyu/CLionProjects/ReviewOpenGl/cmake-build-debug/2_CreatTriangle/CMakeFiles/rebuild_cache.dir
