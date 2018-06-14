@@ -5,10 +5,11 @@ set(CMAKE_CXX_STANDARD 11)
 
 set( ROOT ${PROJECT_SOURCE_DIR})
 include_directories(${ROOT}/Include)
-#link_directories(${ROOT}/Lib/X86)
-link_directories(${ROOT}/Lib/X64)
+link_directories(${ROOT}/Lib/X86)
+#link_directories(${ROOT}/Lib/X64)
 
 add_subdirectory(1_CreatWindow)
 add_subdirectory(2_CreatTriangle)
 add_subdirectory(3_GLSL)
 add_subdirectory(4_Texture_Transfrom)
+add_subdirectory(5_Camera)
