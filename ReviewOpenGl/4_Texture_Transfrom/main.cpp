@@ -108,8 +108,8 @@ void main(){
 }
 )";
 
-const char *texPath1 = "E:/ReviewOpenGL//ReviewOpenGl/Res/Texture/bg.jpg";
-const char *texPath2 = "E:/ReviewOpenGL//ReviewOpenGl/Res/Texture/container.jpg";
+const char *containerTexPath = "E:/ReviewOpenGL//ReviewOpenGl/Res/Texture/bg.jpg";
+const char *specularMaskTexPath = "E:/ReviewOpenGL//ReviewOpenGl/Res/Texture/containerTexPath.jpg";
 
 void setBufferSizeCallBack(GLFWwindow *, int, int);
 
@@ -249,8 +249,8 @@ int main() {
     glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void *) (3 * sizeof(float)));
     glEnableVertexAttribArray(1);
 
-    GLuint texture1 = LoadTexture(texPath1);
-    GLuint texture2 = LoadTexture(texPath2);
+    GLuint texture1 = LoadTexture(containerTexPath);
+    GLuint texture2 = LoadTexture(specularMaskTexPath);
     glUseProgram(shaderProgram);
     glUniform1i(glGetUniformLocation(shaderProgram, "tex1"), 0);
     glUniform1i(glGetUniformLocation(shaderProgram, "tex2"), 1);
