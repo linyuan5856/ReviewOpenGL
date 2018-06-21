@@ -139,8 +139,8 @@ const char *containerTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpe
 
 std::vector<std::string> faces
         {
-                "left.jpg",
                 "right.jpg",
+                "left.jpg",
                 "top.jpg",
                 "bottom.jpg",
                 "front.jpg",
@@ -336,6 +336,8 @@ GLuint LoadCubeTexture(std::vector<std::string> faces) {
     glBindTexture(GL_TEXTURE_CUBE_MAP, tex);
     GLint width, height, channel;
     std::string path = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/skybox/";
+    stbi_set_flip_vertically_on_load(0);
+
     for (int i = 0; i < faces.size(); ++i) {
         GLubyte *data = stbi_load((path + faces[i]).c_str(), &width, &height, &channel, 0);
         if (data != nullptr) {
