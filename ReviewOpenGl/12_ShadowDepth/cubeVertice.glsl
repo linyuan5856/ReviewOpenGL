@@ -7,6 +7,7 @@ out VS_OUT{
  vec3 WorldPos;
  vec3 Normal;
  vec2 TexCoords;
+ vec4 LightSpacePos;
 }vs_out;
 
 
@@ -20,6 +21,7 @@ void main(){
 //gl_Position=lightSpaceMatrix*model*vec4(aPos,1.0);
 
 vs_out.TexCoords=aTexCoords;
-vs_out.Normal=mat3(transpose(inverse(model)))*aNormal;
-vs_out.WorldPos=(model*vec4(aPos,1.0)).xyz;
+vs_out.Normal=transpose(inverse(mat3(model)))*aNormal;
+vs_out.WorldPos=vec3(model*vec4(aPos,1.0));
+vs_out.LightSpacePos=lightSpaceMatrix* vec4(vs_out.WorldPos, 1.0);
 }
