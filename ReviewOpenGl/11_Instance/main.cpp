@@ -15,8 +15,8 @@ void processInput(GLFWwindow *window);
 const unsigned int SCR_WIDTH = 1280;
 const unsigned int SCR_HEIGHT = 720;
 
-const char *QUAD_V_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/11_Instance/quad.vs";
-const char *QUAD_F_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/11_Instance/quad.fs";
+const char *QUAD_V_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/11_Instance/quadF.glsl";
+const char *QUAD_F_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/11_Instance/quadV.glsl";
 
 int main() {
     glfwInit();
