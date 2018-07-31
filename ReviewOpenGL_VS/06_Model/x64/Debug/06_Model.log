@@ -1,0 +1,17 @@
+﻿  glad.c
+  stb_image.cpp
+  06_Model.cpp
+c:\project\reviewopengl_vs\reviewopengl\include\shader.h(67): warning C4101: “infoLog”: 未引用的局部变量
+c:\project\reviewopengl_vs\reviewopengl\include\shader.h(66): warning C4101: “success”: 未引用的局部变量
+c:\project\reviewopengl_vs\reviewopengl\include\mesh.h(89): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\06_model\06_model.cpp(73): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\project\reviewopengl_vs\reviewopengl\06_model\06_model.cpp(81): warning C4305: “参数”: 从“double”到“float”截断
+c:\project\reviewopengl_vs\reviewopengl\06_model\06_model.cpp(125): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\06_model\06_model.cpp(126): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\06_model\06_model.cpp(132): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\06_model\06_model.cpp(133): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\06_model\06_model.cpp(134): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\06_model\06_model.cpp(135): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\06_model\06_model.cpp(153): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+MSVCRTD.lib(chkstk.obj) : fatal error LNK1112: 模块计算机类型“x86”与目标计算机类型“x64”冲突

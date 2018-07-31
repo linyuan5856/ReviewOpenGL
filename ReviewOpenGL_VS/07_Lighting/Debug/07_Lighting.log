@@ -1,0 +1,13 @@
+﻿  07_Lighting.cpp
+c:\project\reviewopengl_vs\reviewopengl\include\shader.h(67): warning C4101: “infoLog”: 未引用的局部变量
+c:\project\reviewopengl_vs\reviewopengl\include\shader.h(66): warning C4101: “success”: 未引用的局部变量
+c:\project\reviewopengl_vs\reviewopengl\07_lighting\07_lighting.cpp(75): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\project\reviewopengl_vs\reviewopengl\07_lighting\07_lighting.cpp(83): warning C4305: “参数”: 从“double”到“float”截断
+c:\project\reviewopengl_vs\reviewopengl\07_lighting\07_lighting.cpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\07_lighting\07_lighting.cpp(131): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\07_lighting\07_lighting.cpp(137): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\07_lighting\07_lighting.cpp(138): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\07_lighting\07_lighting.cpp(139): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\07_lighting\07_lighting.cpp(140): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\07_lighting\07_lighting.cpp(158): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+  07_Lighting.vcxproj -> C:\Project\ReviewOpenGL_VS\ReviewOPENGL\Debug\07_Lighting.exe

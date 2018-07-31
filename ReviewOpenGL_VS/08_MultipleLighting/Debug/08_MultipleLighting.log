@@ -1,0 +1,16 @@
+﻿  08_mutipleLighting.cpp
+c:\project\reviewopengl_vs\reviewopengl\include\shader.h(67): warning C4101: “infoLog”: 未引用的局部变量
+c:\project\reviewopengl_vs\reviewopengl\include\shader.h(66): warning C4101: “success”: 未引用的局部变量
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(151): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(168): warning C4305: “参数”: 从“double”到“float”截断
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(169): warning C4305: “参数”: 从“double”到“float”截断
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(176): warning C4305: “参数”: 从“double”到“float”截断
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(177): warning C4305: “参数”: 从“double”到“float”截断
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(239): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(240): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(246): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(247): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(248): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(249): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\project\reviewopengl_vs\reviewopengl\08_multiplelighting\08_mutiplelighting.cpp(267): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+  08_MultipleLighting.vcxproj -> C:\Project\ReviewOpenGL_VS\ReviewOPENGL\Debug\08_MultipleLighting.exe

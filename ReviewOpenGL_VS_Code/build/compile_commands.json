@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/linyu/Desktop/OpenGL/build",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe  @CMakeFiles/OpenGL.dir/includes_C.rsp -g   -o CMakeFiles\\OpenGL.dir\\src\\glad.c.obj   -c C:\\Users\\linyu\\Desktop\\OpenGL\\src\\glad.c",
+  "file": "C:/Users/linyu/Desktop/OpenGL/src/glad.c"
+},
+{
+  "directory": "C:/Users/linyu/Desktop/OpenGL/build",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/OpenGL.dir/includes_CXX.rsp -g   -o CMakeFiles\\OpenGL.dir\\src\\main.cpp.obj -c C:\\Users\\linyu\\Desktop\\OpenGL\\src\\main.cpp",
+  "file": "C:/Users/linyu/Desktop/OpenGL/src/main.cpp"
+}
+]
