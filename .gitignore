@@ -28,6 +28,8 @@
 
 #vs
 .vs
+Debug
+x64
 
 # Created by https://www.gitignore.io/api/jetbrains 
 ### JetBrains ### 
