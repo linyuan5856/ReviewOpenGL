@@ -18,7 +18,7 @@
     <ClCompile Include="window.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\CLionProjects\ReviewOpenGL\Review_VS2017\glad.c">
+    <ClCompile Include="..\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
