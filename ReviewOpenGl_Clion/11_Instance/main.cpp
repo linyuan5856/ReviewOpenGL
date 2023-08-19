@@ -1,11 +1,6 @@
 #include <glad/glad.h>
 #include <glfw3.h>
-#include <stb_image.h>
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
 #include <shader.h>
-#include <camera.h>
 #include <iostream>
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
@@ -15,8 +10,8 @@ void processInput(GLFWwindow *window);
 const unsigned int SCR_WIDTH = 1280;
 const unsigned int SCR_HEIGHT = 720;
 
-const char *QUAD_V_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/11_Instance/quadF.glsl";
-const char *QUAD_F_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/11_Instance/quadV.glsl";
+const char *QUAD_V_SHADER_PATH = "../../11_Instance/quad.vs";
+const char *QUAD_F_SHADER_PATH = "../../11_Instance/quad.fs";
 
 int main() {
     glfwInit();

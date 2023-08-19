@@ -108,8 +108,8 @@ void main(){
 }
 )";
 
-const char *containerTexPath = "E:/ReviewOpenGL//ReviewOpenGl/Res/Texture/bg.jpg";
-const char *specularMaskTexPath = "E:/ReviewOpenGL//ReviewOpenGl/Res/Texture/containerTexPath.jpg";
+const char *containerTexPath = "../../Res/Texture/bg.jpg";
+const char *specularMaskTexPath = "../../Res/Texture/containerTexPath.jpg";
 
 void setBufferSizeCallBack(GLFWwindow *, int, int);
 

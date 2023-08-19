@@ -129,13 +129,13 @@ bool firstMouse = true;
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 
-const char *SKYV_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/10_SkyBox/sky.vs";
-const char *SKYF_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/10_SkyBox/sky.fs";
+const char *SKYV_SHADER_PATH = "../../10_SkyBox/sky.vs";
+const char *SKYF_SHADER_PATH = "../../10_SkyBox/sky.fs";
 
-const char *CUBEV_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/10_SkyBox/cube.vs";
-const char *CUBEF_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/10_SkyBox/cube.fs";
+const char *CUBEV_SHADER_PATH = "../../10_SkyBox/cube.vs";
+const char *CUBEF_SHADER_PATH = "../../10_SkyBox/cube.fs";
 
-const char *containerTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/container2.png";
+const char *containerTexPath = "../../Res/Texture/container2.png";
 
 std::vector<std::string> faces
         {
@@ -335,7 +335,7 @@ GLuint LoadCubeTexture(std::vector<std::string> faces) {
     glGenTextures(1, &tex);
     glBindTexture(GL_TEXTURE_CUBE_MAP, tex);
     GLint width, height, channel;
-    std::string path = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/skybox/";
+    std::string path = "../../Res/Texture/skybox/";
     stbi_set_flip_vertically_on_load(0);
 
     for (int i = 0; i < faces.size(); ++i) {

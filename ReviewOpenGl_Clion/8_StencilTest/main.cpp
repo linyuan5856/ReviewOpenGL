@@ -92,14 +92,14 @@ float lasty = 0.0f;
 float mpitch = 0.0f;
 float myaw = -90.0f;
 
-const char *containerTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/container2.png";
-const char *specularMaskTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/container2_specular.png";
+const char *containerTexPath = "../../Res/Texture/container2.png";
+const char *specularMaskTexPath = "../../Res/Texture/container2_specular.png";
 
-const char *vShaderPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/8_StencilTest/vs.shader";
-const char *fShaderPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/8_StencilTest/fs.shader";
+const char *vShaderPath = "../../8_StencilTest/vs.shader";
+const char *fShaderPath = "../../8_StencilTest/fs.shader";
 
-const char *LampVShaderPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/8_StencilTest/lampvs.shader";
-const char *LampFShaderPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/8_StencilTest/lampfs.shader";
+const char *LampVShaderPath = "../../8_StencilTest/lampvs.shader";
+const char *LampFShaderPath = "../../8_StencilTest/lampfs.shader";
 
 void setBufferSizeCallBack(GLFWwindow *, int, int);
 

@@ -97,14 +97,14 @@ float lasty = 0.0f;
 float mpitch = 0.0f;
 float myaw = -90.0f;
 
-const char *containerTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/container2.png";
-const char *specularMaskTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/container2_specular.png";
+const char *containerTexPath = "../../Res/Texture/container2.png";
+const char *specularMaskTexPath = "../../Res/Texture/container2_specular.png";
 
-const char *vShaderPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/9_FrameBuffer/vs.shader";
-const char *fShaderPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/9_FrameBuffer/fs.shader";
+const char *vShaderPath = "../../9_FrameBuffer/vs.shader";
+const char *fShaderPath = "../../9_FrameBuffer/fs.shader";
 
-const char *QuadVShaderPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/9_FrameBuffer/quadVs.shader";
-const char *QuadFShaderPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/9_FrameBuffer/quadFragment.shader";
+const char *QuadVShaderPath = "../../9_FrameBuffer/quadVs.shader";
+const char *QuadFShaderPath = "../../9_FrameBuffer/quadFragment.shader";
 
 void setBufferSizeCallBack(GLFWwindow *, int, int);
 

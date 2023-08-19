@@ -30,12 +30,12 @@ bool firstMouse = true;
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 
-const char *QUAD_F_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/14_Normal_Parallax/quadF.glsl";
-const char *QUAD_V_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/14_Normal_Parallax/quadV.glsl";
+const char *QUAD_F_SHADER_PATH = "../../14_Normal_Parallax/quadF.glsl";
+const char *QUAD_V_SHADER_PATH = "../../14_Normal_Parallax/quadV.glsl";
 
-const char *brickTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/bricks2.jpg";
-const char *brickNormalTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/bricks2_normal.jpg";
-const char *brickParallaxTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/bricks2_disp.jpg";
+const char *brickTexPath = "../../Res/Texture/bricks2.jpg";
+const char *brickNormalTexPath = "../../Res/Texture/bricks2_normal.jpg";
+const char *brickParallaxTexPath = "../../Res/Texture/bricks2_disp.jpg";
 
 GLuint quadVAO = 0;
 GLuint quadVBO;

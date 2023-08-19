@@ -37,16 +37,16 @@ bool firstMouse = true;
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 
-const char *QUAD_V_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/12_ShadowDepth/quadV.glsl";
-const char *QUAD_F_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/12_ShadowDepth/quadF.glsl";
+const char *QUAD_V_SHADER_PATH = "../../12_ShadowDepth/quadV.glsl";
+const char *QUAD_F_SHADER_PATH = "../../12_ShadowDepth/quadF.glsl";
 
-const char *CUBE_V_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/12_ShadowDepth/cubeVertice.glsl";
-const char *CUBE_F_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/12_ShadowDepth/cubeFragment.glsl";
+const char *CUBE_V_SHADER_PATH = "../../12_ShadowDepth/cubeVertice.glsl";
+const char *CUBE_F_SHADER_PATH = "../../12_ShadowDepth/cubeFragment.glsl";
 
-const char *DEPTH_V_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/12_ShadowDepth/simpleDepthVertice.glsl";
-const char *DEPTH_F_SHADER_PATH = "C:/Project/CLionProjects/ReviewOpenGL/ReviewOpenGl/12_ShadowDepth/simpleDepthFragment.glsl";
+const char *DEPTH_V_SHADER_PATH = "../../12_ShadowDepth/simpleDepthVertice.glsl";
+const char *DEPTH_F_SHADER_PATH = "../../12_ShadowDepth/simpleDepthFragment.glsl";
 
-const char *woodTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/wood.png";
+const char *woodTexPath = "../../ReviewOpenGl/Res/Texture/wood.png";
 
 
 GLuint quadVAO, planeVAO, cubeVAO;

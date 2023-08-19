@@ -82,11 +82,11 @@ float lasty = 0.0f;
 float mpitch = 0.0f;
 float myaw = -90.0f;
 
-const char *containerTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/bg.jpg";
-const char *specularMaskTexPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/Res/Texture/containerTexPath.jpg";
+const char *containerTexPath = "../../Res/Texture/bg.jpg";
+const char *specularMaskTexPath = "../../Res/Texture/containerTexPath.jpg";
 
-const char *vShaderPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/5_Camera/vs.shader";
-const char *fShaderPath = "C:/Project/CLionProjects/ReviewOpenGL//ReviewOpenGl/5_Camera/fs.shader";
+const char *vShaderPath = "../../5_Camera/vs.shader";
+const char *fShaderPath = "../../5_Camera/fs.shader";
 
 void setBufferSizeCallBack(GLFWwindow *, int, int);
 
